@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">MyApplicationETC</string>
-    <string name="mainMenu">Главное Меню</string>
-    <string name="toProfile">Перейти к ррофилю</string>
+    <string name="screensList">Список экранов</string>
+    <string name="toProfile">Перейти к профилю</string>
     <string name="profile">Ваш профиль</string>
     <string name="backMenu">Назад в меню</string>
+    <string name="calcText">Вычислитель</string>
+    <string name="calcInputText1">Введите первое число</string>
+    <string name="calcInputText2">Введите второе число</string>
+    <string name="calcAddText">Сложить</string>
+    <string name="calcResultText">Результат: ?</string>
 </resources>

@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "MyApplicationETC"
 include(":app")
+include(":utils")
