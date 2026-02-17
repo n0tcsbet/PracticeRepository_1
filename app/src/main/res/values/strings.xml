@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyApplicationETC</string>
+    <string name="mainMenu">Главное Меню</string>
+    <string name="toProfile">Перейти к ррофилю</string>
+    <string name="profile">Ваш профиль</string>
+    <string name="backMenu">Назад в меню</string>
+</resources>
