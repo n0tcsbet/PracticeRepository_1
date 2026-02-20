@@ -20,4 +20,12 @@
     <string name="calcInputText2">Введите второе число</string>
     <string name="calcAddText">Сложить</string>
     <string name="calcResultText">Результат: ?</string>
+
+    <!-- activity_details -->
+    <string name="ad_taskDetails">📝 Детали задачи</string>
+    <string name="ad_taskName">Название задачи</string>
+    <string name="ad_taskDescription">Описание</string>
+    <string name="ad_taskID">ID: #</string>
+    <string name="ad_taskEdit">✏️ Редактировать</string>
+    <string name="ad_taskDelete">🗑️ Удалить</string>
 </resources>
