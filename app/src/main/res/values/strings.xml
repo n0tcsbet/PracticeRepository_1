@@ -1,9 +1,20 @@
 <resources>
     <string name="app_name">MyApplicationETC</string>
-    <string name="screensList">Список экранов</string>
-    <string name="toProfile">Перейти к профилю</string>
+
+    <!-- activity_main -->
+    <string name="mainMenu">Главное Меню</string>
+    <string name="taskControl">Управление задачами</string>
+    <string name="taskName">Название задачи</string>
+    <string name="taskDescription">Описание задачи</string>
+    <string name="addTask">Добавить</string>
+    <string name="refreshTask">Обновить</string>
+    <string name="deleteTask">Удалить выбранную задачу</string>
+
+    <!-- activity_profile -->
     <string name="profile">Ваш профиль</string>
     <string name="backMenu">Назад в меню</string>
+
+    <!-- activity_calc -->
     <string name="calcText">Вычислитель</string>
     <string name="calcInputText1">Введите первое число</string>
     <string name="calcInputText2">Введите второе число</string>
