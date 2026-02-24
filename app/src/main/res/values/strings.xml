@@ -28,4 +28,11 @@
     <string name="ad_taskID">ID: #</string>
     <string name="ad_taskEdit">✏️ Редактировать</string>
     <string name="ad_taskDelete">🗑️ Удалить</string>
+
+    <!-- activity_gallery -->
+    <string name="ag_picCatlog">Каталог картинок</string>
+
+    <!-- item_gallery -->
+    <string name="ig_title">Каталог картинок</string>
+    <string name="ig_description">Каталог картинок</string>
 </resources>
