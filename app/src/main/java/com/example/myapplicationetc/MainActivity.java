@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
                 "Открыть профиль",
                 "Открыть экран с расчётом",
                 "Открыть экран настроек",
-                "Каталог картинок"
+                "Каталог картинок",
+                "Медиа"
         };
         ArrayAdapter<String> navAdapter = new ArrayAdapter<>(
                 this, android.R.layout.simple_list_item_1, screens);
@@ -51,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this, SettingsActivity.class));
                 } else if (position == 3) {
                     startActivity(new Intent(MainActivity.this, GalleryActivity.class));
+                } else if (position == 4) {
+                    startActivity(new Intent(MainActivity.this, ContentActivity.class));
                 }
             }
         });

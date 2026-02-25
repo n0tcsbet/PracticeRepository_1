@@ -37,6 +37,7 @@ android {
 
 dependencies {
     implementation(project(":utils"))
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

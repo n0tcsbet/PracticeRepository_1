@@ -35,4 +35,7 @@
     <!-- item_gallery -->
     <string name="ig_title">Каталог картинок</string>
     <string name="ig_description">Каталог картинок</string>
+
+    <!-- activity_media -->
+    <string name="am_content">Аудио и Видео</string>
 </resources>
