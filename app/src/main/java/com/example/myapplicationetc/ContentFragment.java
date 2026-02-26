@@ -11,7 +11,7 @@ import android.widget.VideoView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-public class ContentActivity extends AppCompatActivity {
+public class ContentFragment extends AppCompatActivity {
 
     private ListView llaudio;
     private MediaPlayer mediaPlayer;

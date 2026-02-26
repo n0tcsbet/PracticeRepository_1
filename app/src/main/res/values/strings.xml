@@ -38,4 +38,14 @@
 
     <!-- activity_media -->
     <string name="am_content">Аудио и Видео</string>
+
+    <!-- fragment_home -->
+    <string name="fh_taskName">Название задачи</string>
+    <string name="fh_taskDescription">Описание задачи</string>
+    <string name="fh_taskAdd">Добавить задачу</string>
+    <string name="fh_updateList">Обновить список</string>
+
+    <!-- fragment_settings -->
+    <string name="fs_theme">Тёмная тема</string>
+    <string name="fs_textSize">Размер шрифта (10–30)</string>
 </resources>

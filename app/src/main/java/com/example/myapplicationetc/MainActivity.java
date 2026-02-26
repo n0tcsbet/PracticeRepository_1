@@ -23,17 +23,18 @@ public class MainActivity extends AppCompatActivity {
     List<Task> tasks = new ArrayList<>();
     int selectedTaskId = -1;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_nav);
+
 
         @SuppressLint({"MissingInflatedId", "LocalSuppress"})
         ListView lvScreens = findViewById(R.id.lvScreens);
         String[] screens = {
                 "Открыть профиль",
                 "Открыть экран с расчётом",
-                "Открыть экран настроек",
                 "Каталог картинок",
                 "Медиа"
         };
@@ -49,11 +50,9 @@ public class MainActivity extends AppCompatActivity {
                 } else if (position == 1) {
                     startActivity(new Intent(MainActivity.this, CalcActivity.class));
                 } else if (position == 2) {
-                    startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+                    startActivity(new Intent(MainActivity.this, GalleryFragment.class));
                 } else if (position == 3) {
-                    startActivity(new Intent(MainActivity.this, GalleryActivity.class));
-                } else if (position == 4) {
-                    startActivity(new Intent(MainActivity.this, ContentActivity.class));
+                    startActivity(new Intent(MainActivity.this, ContentFragment.class));
                 }
             }
         });
@@ -87,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 selectedTaskId = tasks.get(position).getId();
-                Intent intent = new Intent(MainActivity.this, DetailsActivity.class);
+                Intent intent = new Intent(MainActivity.this, DetailsFragment.class);
                 intent.putExtra("TASK_ID", selectedTaskId);
                 startActivityForResult(intent, 1);
 

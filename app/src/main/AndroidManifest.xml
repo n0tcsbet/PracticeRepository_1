@@ -12,13 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationETC">
         <activity
-            android:name=".ContentActivity"
+            android:name=".SettingsFragment"
             android:exported="false" />
         <activity
-            android:name=".GalleryActivity"
+            android:name=".ContentFragment"
             android:exported="false" />
         <activity
-            android:name=".DetailsActivity"
+            android:name=".GalleryFragment"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsFragment"
             android:exported="false" />
         <activity
             android:name=".SettingsActivity"
