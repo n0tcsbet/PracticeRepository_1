@@ -12,8 +12,14 @@
             android:id="@+id/action_homeFragment_to_detailsActivity"
             app:destination="@id/detailsActivity" />
         <action
-            android:id="@+id/action_homeFragment_to_settingsFragment3"
+            android:id="@+id/action_homeFragment_to_settingsFragment"
             app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_galleryFragment"
+            app:destination="@id/galleryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_contentFragment"
+            app:destination="@id/contentActivity" />
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
@@ -22,13 +28,13 @@
     <activity
         android:id="@+id/galleryActivity"
         android:name="com.example.myapplicationetc.GalleryFragment"
-        android:label="GalleryActivity" />
+        android:label="GalleryFragment" />
     <activity
         android:id="@+id/contentActivity"
         android:name="com.example.myapplicationetc.ContentFragment"
-        android:label="ContentActivity" />
+        android:label="ContentFragment" />
     <activity
         android:id="@+id/detailsActivity"
         android:name="com.example.myapplicationetc.DetailsFragment"
-        android:label="DetailsActivity" />
+        android:label="DetailsFragment" />
 </navigation>

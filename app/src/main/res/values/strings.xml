@@ -48,4 +48,12 @@
     <!-- fragment_settings -->
     <string name="fs_theme">Тёмная тема</string>
     <string name="fs_textSize">Размер шрифта (10–30)</string>
+
+    <!-- bottom_nav_menu -->
+    <string name="bnm_main">Главная</string>
+    <string name="bnm_gallery">Галерея</string>
+    <string name="bnm_media">Медиа</string>
+    <string name="bnm_settings">Настройки</string>
+
+    <!-- <string name=""> </string> -->
 </resources>
